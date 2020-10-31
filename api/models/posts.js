@@ -7,8 +7,10 @@ class Post{
         return this.readData();
     }
 
-    getIndividualPost(){
-
+    getIndividualPost(postId){
+        const posts = this.readData();
+        const foundPost = posts.find((post)=> post.id == postId);
+        return foundPost;
     }
 
     add(newPost){
