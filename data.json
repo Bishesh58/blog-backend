@@ -2,18 +2,19 @@
     {   "id":"1243",
         "title":"This is a New Blog Post",
         "content":"This is content of the page",
-        "post_image":"abc",
+        "post_image":"assets/img-1.jpg",
         "added_date":"2234234"
     },
     {   "id":"36",
         "title":"This is a New Blog Post",
         "content":"This is content of the page",
-        "post_image":"abc","added_date":"2234234"
+        "post_image":"assets/img-2.jpg",
+        "added_date":"2234234"
     },
     {   "id":"8",
         "title":"This is a New Blog Post",
         "content":"This is content of the page",
-        "post_image":"abc",
+        "post_image":"assets/img-3.jpg",
         "added_date":"2234234"
     }
 ]

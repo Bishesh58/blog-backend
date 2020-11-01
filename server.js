@@ -6,6 +6,7 @@ const Post = require("./api/models/posts");
 const app = express();
 app.use(cors());
 app.use(express.json())
+app.use('/assets', express.static('assets'))
 const postData = new Post();
 
 
